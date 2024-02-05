@@ -1,0 +1,50 @@
+body {
+  margin-inline: 100px;
+}
+
+.container-header-nav {
+  background-image: url(imgs/digital-background-img.jpg);
+  background-size: contain;
+}
+
+
+/* .required::before{
+    content: '*';
+    color: red;
+    margin-right: 5px;
+} */
+
+header {
+  padding-top: 30px;
+  padding-bottom: 70px;
+  text-align: center;
+  color: aliceblue;
+}
+
+nav {
+  padding: 10px;
+  padding-left: 30px;
+  /* background-color: #212121; */
+}
+
+nav a {
+  text-decoration: none;
+  padding-left: 10px;
+  color: aliceblue;
+}
+
+nav a:hover {
+    color: blueviolet;
+}
+
+footer {
+  margin-top: 50px;
+  padding-top: 25px;
+  padding-bottom: 20px;
+  background-color: beige;
+  text-align: center;
+}
+
+footer a {
+  color: #0c1dd6;
+}
