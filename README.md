@@ -1,1 +1,1 @@
-# My Simple personal profile
+# A Simple profile of myself 
