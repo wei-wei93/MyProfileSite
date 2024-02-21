@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Profile</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="form.css" />
   </head>
   <body>
     <div class="container-header-nav">
@@ -27,42 +28,97 @@
     </div>
     <main>
       <form>
+        <a href="#submit">go to submit</a><br/><br/><br/>
+        <fieldset><legend>About you</legend>
+        <label for="name" class="customLabel">Name<text>*</text></label>
           <input
+          class="customInput"
             type="text"
             id="name"
             name="name"
             placeholder="Full Name"
+            autofocus
             required
           />
-        <br />
 
+        <label for="email" class="customLabel">Email<text>*</text></label>
         <input
+        class="customInput"
           type="email"
           id="email"
           name="email"
           placeholder="Email"
           required
         />
-        <br />
 
+        <label for="phone" class="customLabel">Telephone</label>
         <input
+        class="customInput"
           type="tel"
           id="phone"
           name="phone"
           placeholder="Phone (optional)"
         />
-        <br />
 
+        <label for="website" class="customLabel">Website</label>
+        <input
+        class="customInput"
+          type="url"
+          id="website"
+          name="website"
+          placeholder="Website (optional)"
+        />
+      </fieldset>
+        
+        <h4>How do you know about me?</h4>
+        <input 
+          type="radio"
+          id="hear_about_facebook"
+          name="hear_about"
+          value="Facebook"
+        />
+        <label for="hear_about_facebook"><b>Facebook</b></label>
+        
+        <input 
+          type="radio"
+          id="hear_about_linkedin"
+          name="hear_about"
+          value="LinkedIn"
+        />
+        <label for="hear_about_linkedin"><b>LinkedIn</b></label>
+        
+        <input 
+          type="radio"
+          id="hear_about_instagram"
+          name="hear_about"
+          value="Instagram"
+        />
+        <label for="hear_about_instagram"><b>Instagram</b></label>
+        <br/><br/>
+
+        <fieldset><legend>Message</legend>
+        <label for="subject" class="customLabel">Subject<text>*</text></label>
+        <input
+        class="customInput"
+          id="subject"
+          name="subject"
+          placeholder="Subject"
+          required
+        ></textarea>
+
+        <label for="message" class="customLabel">Message<text>*</text></label>
         <textarea
+          class="customTextarea"
           id="message"
           name="message"
           rows="4"
           cols="50"
-          placeholder="Message"
+          placeholder="Type your message here"
+          required
         ></textarea>
-        <br />
+        </fieldset>
 
-        <input type="submit" value="Send" />
+        <button id="submit" type="submit" value="Send">Submit</button>
       </form>
     </main>
     <footer>

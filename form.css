@@ -1,0 +1,51 @@
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.4);
+}
+
+label text {
+    color:red;
+  }
+
+fieldset {
+    border: 1px solid #b2b2b2;
+    border-radius: 2%;
+}
+
+.customLabel {
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-weight: bold;
+    cursor: pointer; 
+}
+
+.customInput {
+    width: 90%;
+    font-size: medium;
+    padding: 5px;
+    margin-bottom: 16px;
+    border: 1px solid #949393;
+    border-radius: 5px;
+}
+
+.customTextarea {
+    width: 95%;
+    font-size: 18px;
+    padding: 5px;
+    margin-bottom: 16px;
+    border: 1px solid #949393;
+    border-radius: 5px;
+}
+
+button {
+    background-color: aliceblue;
+    padding: 10px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
