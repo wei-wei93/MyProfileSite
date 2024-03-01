@@ -2,6 +2,7 @@ body {
   margin-inline: 100px;
 }
 
+/* my style */
 .container-header-nav {
   background-image: url(imgs/digital-background-img.jpg);
   background-size: contain;
@@ -35,6 +36,36 @@ nav a {
 
 nav a:hover {
     color: blueviolet;
+}
+
+@keyframes colorChange {
+  0% {color: black;}
+  33% {color: blueviolet;}
+  66% {color: brown;}
+
+}
+
+section h4 {
+  padding: auto;
+  /* background-color: antiquewhite; */
+  /* color: #0c1dd6; */
+  animation: colorChange 5s infinite; 
+}
+
+:root {
+  --primary-color: red;
+  --primary-decoration: line-through;
+  --secondary-color: black;
+  --secondary-decoration: underline;
+}
+
+.breaknews {
+  color: var(--primary-color);
+  text-decoration: var(--primary-decoration);
+}
+
+section p {
+  padding-bottom: 2%;
 }
 
 footer {
