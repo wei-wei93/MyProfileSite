@@ -1,3 +1,3 @@
-# A Simple personal profile to myself 
+# A Simple personal profile
 
 This site is now live at https://wei-wei93.github.io/MyProfileSite/ 
