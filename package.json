@@ -1,5 +1,14 @@
 {
+  "name": "my_personal_profile",
+  "description": "This site is now live at https://wei-wei93.github.io/MyProfileSite/",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "ejs": "^3.1.9"
+    "underscore": "^1.13.6"
   }
 }
